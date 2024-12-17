@@ -51,14 +51,14 @@ const ProdukPage = ({data, handleClick}) => {
     
   return (
     <div ref={refbg} onClick={() => handleClick(0)} className=' fixed z-10 opacity-0 w-screen h-screen top-0 transition-all duration-300 bg-black bg-opacity-50 px-48 py-24 max-[480px]:px-8 max-[480px]:py-8'>
-        <div ref={ref} onClick={e => e.stopPropagation()} className='opacity-0 w-full h-full transition-all duration-300 rounded-xl bg-neutral-300 flex justify-between items-center p-8 gap-8 relative max-[480px]:py-12 max-[480px]:px-10 max-[480px]:flex-col max-[480px]:gap-2'>
+        <div ref={ref} onClick={e => e.stopPropagation()} className='opacity-0 w-full h-full transition-all duration-300 rounded-xl bg-neutral-300 flex justify-between items-center p-8 gap-8 relative max-[480px]:py-14 max-[480px]:px-4 max-[480px]:flex-col max-[480px]:gap-2'>
             <div className='w-96 h-full flex flex-col relative text-neutral-300 font-light text-2xl gap-3 max-[480px]:w-full max-[480px]:h-1/2'>
                 <button ref={prevRef} onClick={() => handlePrevImg()} className=' left-0 absolute rounded-r-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{"<"}</button>
                 <button ref={nextRef} onClick={() => handleNextImg()} className=' right-0 absolute rounded-l-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{">"}</button>
                 <div className='w-96 h-96 overflow-hidden rounded-lg max-[480px]:w-full'>
-                    <div className='h-full w-fit flex '>
+                    <div className='h-full w-fit flex max-[480px]:w-[300%]'>
                         {data.image.map((e, i) => {
-                            return <div className='w-96 relative bg-neutral-400 max-[480px]:w-80'>
+                            return <div className='w-96 relative bg-neutral-400 max-[480px]:w-[33.3%]'>
                                 <ImageComp refs={imageRef[i]} src={e} key={i} className=" absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover h-full"/>
                             </div>
                         })}
