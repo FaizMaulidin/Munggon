@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageComp from './ImageComp'
 
 const LandingPage = ({scroll}) => {
     return (
@@ -12,7 +13,8 @@ const LandingPage = ({scroll}) => {
                 </div>
             </div>
             <div className="elements w-1/2 flex justify-end pr-20">
-                <div className=" rounded-[999px] w-72 bg-hero bg-cover relative">
+                <div className=" rounded-[999px] w-72 relative">
+                    <ImageComp className="rounded-full" src="./tugu1.png"/>
                     <div className='bg-gold w-40 h-28 rounded-2xl absolute top-20 -left-20'></div>
                     <div className='bg-gold w-32 h-36 rounded-2xl absolute bottom-20 -right-20'></div>
                 </div>

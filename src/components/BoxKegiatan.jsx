@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import ImageComp from './ImageComp'
 
 const BoxKegiatan = ({name, toID}) => {
 
@@ -40,32 +41,43 @@ const BoxKegiatan = ({name, toID}) => {
         return () => window.removeEventListener('scroll', handleScroll)
     })
 
+    const src = () => {
+        switch (name) {
+            case "Senam Rutin":
+                return "./assets/senam-pr.png"
+
+            case "Rapat Pemuda":
+                return "./assets/rapatpemuda-ls.jpg"
+        
+            default:
+                return "./assets/posyandu-ls.JPG"
+        }
+    }
+
     const styling = () => {
         switch (name) {
             case "Senam Rutin":
                 return {
                     gridRow: 'span 2 / span 2',
-                    borderRadius: '8rem 0',
-                    backgroundImage: 'url(./assets/senam-pr.png)'
+                    borderRadius: '8rem 0'
                 }
                 
             case "Rapat Pemuda":
                 return {
                     gridColumn: 'span 2 / span 2',
-                    borderRadius: '8rem 0',
-                    backgroundImage: 'url(./assets/rapatpemuda-ls.jpg)'
+                    borderRadius: '8rem 0'
             }
         
             default:
                 return {
                     gridColumn: 'span 2 / span 2',
-                    borderRadius: '0 8rem',
-                    backgroundImage: 'url(./assets/posyandu-ls.JPG)'
+                    borderRadius: '0 8rem'
                 }
         }
     }
     return (
         <Link to={"/kegiatan?id=" + toID} ref={slide} className='bg-cover cursor-pointer bg-center group overflow-hidden relative flex justify-center items-center' style={styling()}>
+            <ImageComp src={src()} className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"/>
             <div className=' bg-darkerblue group-hover:opacity-30 transition-all absolute opacity-75 top-0 duration-300 w-full h-full'>
             </div>
             <h1 className='text-white group-hover:opacity-100 delay-150 group-hover:translate-y-0 opacity-0 transition-all duration-300 -translate-y-8 text-6xl tracking-wide font-semibold z-10 text-center'>{name}</h1>

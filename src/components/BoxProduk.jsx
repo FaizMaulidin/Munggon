@@ -2,14 +2,14 @@ import { faBasketShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ImageComp from './ImageComp'
 
 const BoxProduk = ({data}) => {
 
   if (data){
     return (
-      <Link to={'/produk?id='+data.id} className="box cursor-pointer transition-all duration-500 hover:scale-[1.015] saturate-0 hover:saturate-50 rounded-md bg-cover h-full w-[26rem] text-2xl tracking-[0.2em] font-extralight text-white p-5 flex items-end" style={{
-        backgroundImage: 'url('+data.image[0]+')'
-      }}>
+      <Link to={'/produk?id='+data.id} className="box cursor-pointer transition-all duration-500 hover:scale-[1.015] saturate-0 hover:saturate-50 rounded-md bg-cover h-full w-[26rem] text-2xl tracking-[0.2em] font-extralight text-white p-5 flex items-end overflow-hidden">
+        <ImageComp className="absolute -z-10 left-0 top-1/2 w-full -translate-y-1/2" src={data.image[0]}/>
         {data.produk}
       </Link>
     )

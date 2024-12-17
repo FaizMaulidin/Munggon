@@ -1,7 +1,8 @@
-import { faLocationDot, faPhoneAlt, faUser, faX } from '@fortawesome/free-solid-svg-icons'
+import { faCircleXmark, faLocationDot, faPhoneAlt, faUser, faX, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useRef, useState, createRef } from 'react'
+import ImageComp from './ImageComp'
 
 const ProdukPage = ({data, handleClick}) => {
     const ref = useRef()
@@ -50,17 +51,20 @@ const ProdukPage = ({data, handleClick}) => {
     
   return (
     <div ref={refbg} onClick={() => handleClick(0)} className=' fixed z-10 opacity-0 w-screen h-screen top-0 transition-all duration-300 bg-black bg-opacity-50 px-48 py-24 '>
-        <div ref={ref} onClick={e => e.stopPropagation()} className='opacity-0 w-full h-full transition-all duration-300 rounded-xl bg-neutral-300 flex justify-between items-center p-8 gap-8'>
+        <div ref={ref} onClick={e => e.stopPropagation()} className='opacity-0 w-full h-full transition-all duration-300 rounded-xl bg-neutral-300 flex justify-between items-center p-8 gap-8 relative'>
             <div className='w-96 h-full flex flex-col relative text-neutral-300 font-light text-2xl gap-3'>
-                <button ref={prevRef} onClick={() => handlePrevImg()} className=' left-0 absolute rounded-r-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300'>{"<"}</button>
-                <button ref={nextRef} onClick={() => handleNextImg()} className=' right-0 absolute rounded-l-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300'>{">"}</button>
+                <button ref={prevRef} onClick={() => handlePrevImg()} className=' left-0 absolute rounded-r-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{"<"}</button>
+                <button ref={nextRef} onClick={() => handleNextImg()} className=' right-0 absolute rounded-l-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{">"}</button>
                 <div className='w-96 h-96 overflow-hidden rounded-lg'>
-                    <div className='h-96 w-fit bg-green-500 flex'>
+                    <div className='h-96 w-fit flex'>
                         {data.image.map((e, i) => {
-                            return <div ref={imageRef[i]} key={i} style={{
-                                    backgroundImage: "url('"+e+"')"
-                                }} className=' bg-cover bg-center w-96 flex h-96'>
-                                </div>
+                            return <div className='w-96 relative bg-neutral-400'>
+                                <ImageComp refs={imageRef[i]} src={e} key={i} className=" absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover h-full"/>
+                            </div>
+                            // return <div ref={imageRef[i]} key={i} style={{
+                            //         backgroundImage: "url('"+e+"')"
+                            //     }} className=' bg-cover bg-center w-96 flex h-96'>
+                            //     </div>
                         })}
                     </div>
                 </div>
@@ -76,7 +80,7 @@ const ProdukPage = ({data, handleClick}) => {
                     }
                 </div>
             </div>
-            <div className=' grow  flex h-full py-12 justify-between flex-col tracking-wide text-darkerblue'>
+            <div className=' grow  flex h-full py-12 justify-between flex-col tracking-wide text-darkerblue pr-4'>
                 <div>
                     <h1 className='  text-4xl '>{data.name}</h1>
                     <h3 className='font-light text-lg opacity-50'>{data.produk}</h3>
@@ -87,22 +91,22 @@ const ProdukPage = ({data, handleClick}) => {
                         <FontAwesomeIcon icon={faUser}/>
                         {data.owner}
                     </div>
-                    <div className='flex gap-3'>
-                        <a className='group relative flex gap-3 bg-darkerblue text-neutral-300 px-4 py-3 rounded-md transition-all duration-300 items-center origin-right' target='_blank' href={data.maps}>
-                            <h1 className='font-extralight text-sm'>Lihat Lokasi</h1>
+                    <div className='flex gap-3 opacity-80'>
+                        <a className='group relative flex gap-3 hover:bg-darkerblue border-darkerblue border-2 hover:text-neutral-300 px-4 py-3 rounded-md transition-all duration-300 items-center origin-right' target='_blank' href={data.maps}>
+                            <h1 className='font-ligh text-sm'>Lihat Lokasi</h1>
                             <FontAwesomeIcon icon={faLocationDot}/>
                         </a>
-                        <a className='group relative flex gap-3 bg-darkerblue text-neutral-300 px-4 py-3 rounded-md transition-all duration-300 items-center origin-right' target='_blank' href={data.hp}>
+                        <a className='group relative flex gap-3 hover:bg-darkerblue border-darkerblue border-2 hover:text-neutral-300 px-4 py-3 rounded-md transition-all duration-300 items-center origin-right' target='_blank' href={data.hp}>
                             <div className=' overflow-hidden'>
-                                <h1 className='font-extralight text-sm'>WhatsApp</h1>
+                                <h1 className='font-ligh text-sm'>WhatsApp</h1>
                             </div>
                             <FontAwesomeIcon icon={faPhoneAlt}/>
                         </a>
                     </div>
                 </div>
             </div>
-            <button className='self-start text-2xl text-darkerblue' onClick={() => handleClick(0)}>
-                <FontAwesomeIcon icon={faX}/>
+            <button className='self-start text-3xl absolute right-6 top-4 text-darkerblue' onClick={() => handleClick(0)}>
+                <FontAwesomeIcon icon={faCircleXmark}/>
             </button>
         </div> 
     </div>

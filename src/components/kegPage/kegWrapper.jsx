@@ -2,6 +2,7 @@ import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect } from 'react'
+import ImageComp from '../ImageComp'
 
 const KegWrapper = ({refs, res}) => {
     
@@ -27,8 +28,14 @@ const KegWrapper = ({refs, res}) => {
                     <p className=' text-[0.95rem] leading-5 text-gray'>{res.desc}</p>
                 </div>
             </div>
-            <div style={{backgroundImage: 'url('+res.image.portrait+')'}} className=' bg-neutral-700 rounded-2xl w-[17rem] h-[23rem] shadow-kegwrap bg-cover bg-center overflow-hidden'> <div className=' w-full h-full shadow-kegimage'></div></div>
-            <div style={{backgroundImage: 'url('+res.image.landscape+')'}} className=' bg-neutral-700 rounded-2xl w-[22rem] h-[21rem] shadow-kegwrap bg-cover bg-center overflow-hidden'><div className=' w-full h-full shadow-kegimage'></div></div>
+            <div  className=' bg-neutral-700 rounded-2xl w-[17rem] h-[23rem] shadow-kegwrap bg-cover bg-center overflow-hidden relative'> 
+                <ImageComp src={res.image.portrait} className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover min-h-full min-w-full"/>
+                <div className=' w-full h-full absolute top-0 left-0 shadow-kegimage'></div>
+            </div>
+            <div className=' bg-neutral-700 rounded-2xl w-[22rem] h-[21rem] shadow-kegwrap bg-cover bg-center overflow-hidden relative'>
+                <ImageComp src={res.image.landscape} className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover min-h-full min-w-full"/>
+                <div className=' w-full h-full absolute top-0 left-0 shadow-kegimage'></div>
+            </div>
         </div>
     )
 }
