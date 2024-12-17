@@ -1,0 +1,120 @@
+[
+    {
+        "id": 0,
+        "name": "Rapat RT 01",
+        "produk": "Rapat RT",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Malam Jumat Legi",
+        "image": {
+            "landscape": "./assets/rapatrt1-ls.jpg",
+            "portrait": "./assets/rapatrt1-pr.jpg"
+        }
+    },
+    {
+        "id": 1,
+        "name": "Rapat RT 02",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Malam Jumat Wage",
+        "image": {
+            "landscape": "./assets/rapatrt2-ls.jpg",
+            "portrait": "./assets/rapatrt2-pr.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Rapat RW 20",
+        "produk": "Rapat RW",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Malam Minggu Pahing",
+        "image": {
+            "landscape": "./assets/rapatrw-ls.jpg",
+            "portrait": "./assets/rapatrw-pr.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Kegiatan PKK RT 01",
+        "produk": "Kegiatan PKK",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Tanggal 4",
+        "image": {
+            "landscape": "./assets/pkkrt1-ls.png",
+            "portrait": "./assets/pkkrt1-pr.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Kegiatan PKK RT 02",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Tanggal 5",
+        "image": {
+            "landscape": "./assets/pkkrt2-ls.jpg",
+            "portrait": "./assets/pkkrt2-pr.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Kegiatan PKK RW 20",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Tanggal 9",
+        "image": {
+            "landscape": "./assets/pkkrw-ls.png",
+            "portrait": "./assets/pkkrw-pr.png"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Posyandu",
+        "produk": "Posyandu",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Setiap Tanggal 6",
+        "image": {
+            "landscape": "./assets/posyandu-ls.jpg",
+            "portrait": "./assets/posyandu-pr.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Rapat Pemuda",
+        "produk": "Rapat Pemuda",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Sebulan Sekali",
+        "image": {
+            "landscape": "./assets/rapatpemuda-ls.jpg",
+            "portrait": "./assets/rapatpemuda-pr.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "TPA",
+        "produk": "TPA",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Senin - Jumat",
+        "image": {
+            "landscape": "./assets/tpa-ls.jpg",
+            "portrait": "./assets/tpa-pr.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Pengajian",
+        "produk": "Pengajian",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Malam Selasa Pahing",
+        "image": {
+            "landscape": "./assets/pengajian-ls.jpg",
+            "portrait": "./assets/pengajian-pr.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Senam Rutin",
+        "produk": "Senam Rutin",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "schedule": "Hari Minggu Pagi",
+        "image": {
+            "landscape": "./assets/senam-ls.jpg",
+            "portrait": "./assets/senam-pr.png"
+        }
+    }
+]

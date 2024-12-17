@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Wayang Kulit Pak Suwardi",
+        "produk": "Wayang Kulit",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Pak Suwardi",
+        "hp": "https://wa.me/6287894859218",
+        "maps": "https://maps.app.goo.gl/ScVMHmXmt78TbqgP7",
+        "image": [
+            "./assets/produk/wayang1.jpg",
+            "./assets/produk/wayang2.jpg",
+            "./assets/produk/wayang3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Batik Dinda Hayu",
+        "produk": "Kain Batik",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Pak Sadiyana",
+        "hp": "https://wa.me/6285974848469",
+        "maps": "https://maps.app.goo.gl/VUrZJHT8uxsxNZeq5",
+        "image": [
+            "./assets/produk/batik1.jpg",
+            "./assets/produk/batik2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Arisoema Bag",
+        "produk": "Kerajinan Tas",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Pak Sumari",
+        "hp": "https://wa.me/6289648570298",
+        "maps": "https://maps.app.goo.gl/UzSERmwXyVnD9pTT6",
+        "image": [
+            "./assets/produk/tas1.jpg",
+            "./assets/produk/tas2.jpg",
+            "./assets/produk/tas3.jpg",
+            "./assets/produk/tas4.jpg"
+
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nai's Kitchen",
+        "produk": "Makanan Ringan",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Nina",
+        "hp": "https://wa.me/6287739161421",
+        "maps": "link maps",
+        "image": [
+            "./assets/produk/nais1.jpg",
+            "./assets/produk/nais2.jpg",
+            "./assets/produk/nais3.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Beras Sawah",
+        "produk": "Beras",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Pak Sadiyana",
+        "hp": "https://wa.me/6285974848469",
+        "maps": "link maps",
+        "image": [
+            "./assets/produk/beras1.jpg",
+            "./assets/produk/beras2.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Fian Collection",
+        "produk": "Konveksi",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Pak Sadiyana",
+        "hp": "https://wa.me/6285974848469",
+        "maps": "https://maps.app.goo.gl/MRfcZFnEnG6PxxDH8",
+        "image": [
+            "./assets/produk/fian1.jpg",
+            "./assets/produk/fian2.jpg",
+            "./assets/produk/fian3.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lopis Bu Iwin",
+        "produk": "Makanan Tradisional",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "owner": "Bu Iwin",
+        "hp": "https://wa.me/6289516354555",
+        "maps": "https://maps.app.goo.gl/PGFazUW5tNLkin1f6",
+        "image": [
+            "./assets/produk/lopis1.jpg",
+            "./assets/produk/lopis2.jpg"
+        ]
+    }
+]
