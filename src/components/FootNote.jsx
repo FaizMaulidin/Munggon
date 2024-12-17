@@ -9,15 +9,15 @@ import dataProd from '../data/produk.json'
 
 const FootNote = ({refs}) => {
   return (
-    <div ref={refs} className='bg-darkerblue flex text-white justify-center items-center gap-12 py-16'>
-        <div className='grid grid-cols-footnote gap-x-20 gap-y-4 grid-rows-footnote'>
+    <div ref={refs} className='bg-darkerblue flex text-white justify-center items-center gap-12 py-16 max-[375px]:px-4'>
+        <div className='grid grid-cols-footnote gap-x-20 gap-y-4 grid-rows-footnote max-[375px]:flex max-[375px]:flex-col max-[375px]:gap-8'>
           <MunggonTitle justify={'end'}/>
-          <h1 className='text-xl font-semibold tracking-wider self-end leading-none'>Kegiatan</h1>
-          <h1 className='text-xl font-semibold tracking-wider self-end leading-none'>Produk</h1>
-          <a className=' bg-red-500 row-span-2 flex rounded-md overflow-hidden' href="https://www.google.com/maps/place/Rumah+Pak+Dukuh+Munggon/@-7.8107615,110.436084,16.65z/data=!4m6!3m5!1s0x2e7a51db9ba8a2c7:0xe75feff2d475a9cf!8m2!3d-7.8100729!4d110.4378641!16s%2Fg%2F11kbfq1fz0?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target='_blank'>
+          <h1 className='text-xl font-semibold tracking-wider self-end leading-none max-[375px]:hidden'>Kegiatan</h1>
+          <h1 className='text-xl font-semibold tracking-wider self-end leading-none max-[375px]:hidden'>Produk</h1>
+          <a className=' row-span-2 flex rounded-md overflow-hidden max-[375px]:order-3' href="https://www.google.com/maps/place/Rumah+Pak+Dukuh+Munggon/@-7.8107615,110.436084,16.65z/data=!4m6!3m5!1s0x2e7a51db9ba8a2c7:0xe75feff2d475a9cf!8m2!3d-7.8100729!4d110.4378641!16s%2Fg%2F11kbfq1fz0?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target='_blank'>
             <div style={{
               backgroundImage: "url('./assets/maps.png')"
-            }} className="peta overflow-hidden bg-cover bg-right w-full">
+            }} className="peta overflow-hidden bg-cover bg-right w-full max-[375px]:h-32 ">
             </div>
           </a>
           <div className='flex flex-col gap-3 font-extralight tracking-wider w-auto text-sm'>

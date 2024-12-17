@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const FootNoteList = ({name, list}) => {
     const lowName = name.toLowerCase()
     return (
-        <div className="kegiatan text-white">
+        <div className="kegiatan text-white max-[375px]:hidden">
             <ul className=' font-extralight flex flex-col gap-2 text-sm'>
                 {list.map((e, i) => {
                     if (e.produk) {

@@ -43,7 +43,7 @@ module.exports = {
         boxproduk: "3px 3px 4px 1px rgba(0,0,0,0.5)",
         boxprodukhov: "8px 8px 12px 1px rgba(0,0,0,0.4)"
       }
-    },
+    }
   },
   plugins: [],
 }
