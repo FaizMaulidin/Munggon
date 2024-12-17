@@ -34,7 +34,7 @@ const AllProduk = () => {
                     <img className=' backdrop-saturate-200 w-[280px] max-[480px]:w-48' src="./assets/produk/iconProduk.png" alt="" />
                     <p className=' font-light text-center'>Hasil dari kreativitas dan kearifan warga yang mengutamakan kualitas dalam setiap inspirasi.</p>
                 </div>
-                <div className=' h-full grid grid-cols-[repeat(4,20rem)] grid-rows-2 gap-8 px-4 grid-flow-col max-[480px]:grid-cols-2 max-[480px]:grid-rows-[repeat(4,10rem)]'>
+                <div className=' h-full grid grid-cols-[repeat(4,20rem)] grid-rows-2 gap-8 px-4 grid-flow-col max-[480px]:grid-cols-2 max-[480px]:grid-rows-[repeat(4,10rem)] max-[480px]:px-0'>
                     {data.map((e, i) => {
                         return <ProdukSelect handleClick={handleClick} data={e} key={i}/>
                     })}
