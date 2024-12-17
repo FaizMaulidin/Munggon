@@ -51,7 +51,7 @@ const AllKegiatan = () => {
         }, 150);
     }, [elRef])
 
-    const threshold = window.innerWidth > 480 ? 0.94 : 0.8
+    const threshold = window.innerWidth > 480 ? 0.94 : 0.6
     const observer = new IntersectionObserver(([entry]) => {
         if (entry.isIntersecting){
             entry.target.style.opacity = 1
@@ -100,7 +100,7 @@ const AllKegiatan = () => {
                     </div>
                 </div>
                 <div className=' h-full w-[54rem] bg-neutral-900 rounded-s-[3rem] flex justify-between relative items-end pb-12 px-20 overflow-visible'>
-                    <div className=' flex gap-8 w-[61rem] top-4 -translate-x-48 overflow-hidden absolute transition-all duration-300 ease-in-out px-4 py-12 justify-start max-[480px]:overflow-scroll max-[480px]:-translate-x-32 max-[480px]:pr-[32rem]'>
+                    <div className=' flex gap-8 w-[61rem] top-4 -translate-x-48 overflow-hidden absolute transition-all duration-300 ease-in-out px-4 py-12 justify-start max-[480px]:overflow-scroll max-[480px]:-translate-x-32 max-[480px]:pr-[32rem] max-[480px]:snap-x max-[480px]:snap-mandatory'>
                         {data.map((res, i) => {
                             return <KegWrapper key={res.id} res={res} refs={elRef[i]}/>
                         })}
