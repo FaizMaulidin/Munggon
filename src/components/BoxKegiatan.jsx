@@ -59,7 +59,7 @@ const BoxKegiatan = ({name, toID}) => {
             <ImageComp src={src()} className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover w-full h-full"/>
             <div className=' bg-darkerblue group-hover:opacity-30 transition-all absolute opacity-75 top-0 duration-300 w-full h-full'>
             </div>
-            <h1 className='text-white group-hover:opacity-100 delay-150 group-hover:translate-y-0 opacity-0 transition-all duration-300 -translate-y-8 text-6xl tracking-wide font-semibold z-10 text-center max-[375px]:translate-y-0 max-[375px]:opacity-100 max-[375px]:text-2xl'>{name}</h1>
+            <h1 className='text-white group-hover:opacity-100 delay-150 group-hover:translate-y-0 opacity-0 transition-all duration-300 -translate-y-8 text-6xl tracking-wide font-semibold z-10 text-center max-[480px]:translate-y-0 max-[480px]:opacity-100 max-[480px]:text-2xl'>{name}</h1>
         </Link>
     )
 }
