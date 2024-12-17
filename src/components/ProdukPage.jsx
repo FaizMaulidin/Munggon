@@ -56,9 +56,9 @@ const ProdukPage = ({data, handleClick}) => {
                 <button ref={prevRef} onClick={() => handlePrevImg()} className=' left-0 absolute rounded-r-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{"<"}</button>
                 <button ref={nextRef} onClick={() => handleNextImg()} className=' right-0 absolute rounded-l-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{">"}</button>
                 <div className='w-96 h-96 overflow-hidden rounded-lg max-[480px]:w-full'>
-                    <div className='h-96 w-fit flex'>
+                    <div className='h-full w-fit flex '>
                         {data.image.map((e, i) => {
-                            return <div className='w-96 relative bg-neutral-400'>
+                            return <div className='w-96 relative bg-neutral-400 max-[480px]:w-80'>
                                 <ImageComp refs={imageRef[i]} src={e} key={i} className=" absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover h-full"/>
                             </div>
                         })}
@@ -83,7 +83,7 @@ const ProdukPage = ({data, handleClick}) => {
                     <p className=' mt-5 font-light text-lg opacity-80 max-[480px]:text-base'>{data.desc}</p>
                 </div>
                 <div className=' self-end justify-between w-full text-2xl flex items-end gap-4'>
-                    <div className=' font-light opacity-70 flex text-base items-center gap-2'>
+                    <div className=' font-light opacity-70 flex text-base items-center gap-2 max-[480px]:text-sm'>
                         <FontAwesomeIcon icon={faUser}/>
                         {data.owner}
                     </div>
