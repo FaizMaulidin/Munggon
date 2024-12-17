@@ -60,7 +60,7 @@ const BoxKegiatan = ({name, toID}) => {
                 return {
                     gridColumn: 'span 2 / span 2',
                     borderRadius: '0 8rem',
-                    backgroundImage: 'url(./assets/posyandu-ls.jpg)'
+                    backgroundImage: 'url(./assets/posyandu-ls.JPG)'
                 }
         }
     }

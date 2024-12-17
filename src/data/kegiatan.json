@@ -38,7 +38,7 @@
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
         "schedule": "Tanggal 4",
         "image": {
-            "landscape": "./assets/pkkrt1-ls.png",
+            "landscape": "./assets/pkkrt1-ls.PNG",
             "portrait": "./assets/pkkrt1-pr.jpg"
         }
     },
@@ -58,8 +58,8 @@
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
         "schedule": "Tanggal 9",
         "image": {
-            "landscape": "./assets/pkkrw-ls.png",
-            "portrait": "./assets/pkkrw-pr.png"
+            "landscape": "./assets/pkkrw-ls.PNG",
+            "portrait": "./assets/pkkrw-pr.PNG"
         }
     },
     {
@@ -69,8 +69,8 @@
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
         "schedule": "Setiap Tanggal 6",
         "image": {
-            "landscape": "./assets/posyandu-ls.jpg",
-            "portrait": "./assets/posyandu-pr.jpg"
+            "landscape": "./assets/posyandu-ls.JPG",
+            "portrait": "./assets/posyandu-pr.JPG"
         }
     },
     {
