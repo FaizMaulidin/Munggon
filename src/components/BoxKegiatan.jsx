@@ -55,7 +55,7 @@ const BoxKegiatan = ({name, toID}) => {
     }
 
     return (
-        <Link to={"/kegiatan?id=" + toID} ref={slide} className='box-keg bg-cover cursor-pointer bg-center group overflow-hidden relative flex justify-center items-center'>
+        <Link to={"/kegiatan?id=" + toID} ref={slide} className='box-keg bg-cover cursor-pointer bg-center group overflow-hidden relative flex justify-center items-center max-[480px]:px-3'>
             <ImageComp src={src()} className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover w-full h-full"/>
             <div className=' bg-darkerblue group-hover:opacity-30 transition-all absolute opacity-75 top-0 duration-300 w-full h-full'>
             </div>

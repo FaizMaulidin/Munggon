@@ -3,7 +3,7 @@ import ImageComp from './ImageComp'
 
 const LandingPage = ({scroll}) => {
     return (
-        <div className=' w-full h-full bg-darkerblue flex justify-center px-24 pt-32 pb-14 max-[480px]:px-8 max-[480px]:flex-col max-[480px]:pt-36'>
+        <div className=' w-full h-full bg-darkerblue flex justify-center px-24 pt-32 pb-14 max-[480px]:px-8 max-[480px]:flex-col max-[480px]:pt-36 max-[480px]:pb-20 '>
             <div className="text w-1/2 pt-16 text-white flex flex-col max-[480px]:order-2 max-[480px]:w-full max-[480px]:pt-4">
                 <h1 className='text-[7rem] font-bold tracking-wide text-white leading-[0.9] max-[480px]:text-6xl '>JELAJAH MUNGGON</h1>
                 <h2 className=' text-xl font-light mt-3 italic tracking-wide max-[480px]:text-base max-[480px]:w-full max-[480px]:mt-1'>Kecil dalam Ukuran, Besar dalam Cerita.</h2>

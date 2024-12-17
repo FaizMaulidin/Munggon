@@ -18,7 +18,7 @@ module.exports = {
         lightgray2: 'rgb(225, 236, 228)',
         darkgray: 'hsl(0, 0%, 20%)',
         darkgray2: 'hsl(0, 0%, 30%)',
-        cream: "hsl(53, 50%, 91%)",
+        cream: "hsl(53, 30%, 91%)",
         gold:'#c39d63'
       },
       backgroundImage:{

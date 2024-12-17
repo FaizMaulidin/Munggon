@@ -5,7 +5,7 @@ import data from '../data/produk.json'
 const NewProduk = () => {
     const slide = useRef()
     const slide2 = useRef()
-    let transWindow = window.innerWidth > 375 ? 0 : 20
+    let transWindow = window.innerWidth > 480 ? 0 : 20
     const handleScroll = (e) => {
         const pos = window.pageYOffset
         const transX = Math.trunc((pos - 1550 + (transWindow * 15)) / 6)
