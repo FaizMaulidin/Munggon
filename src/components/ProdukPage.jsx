@@ -56,10 +56,12 @@ const ProdukPage = ({data, handleClick}) => {
                 <button ref={prevRef} onClick={() => handlePrevImg()} className=' left-0 absolute rounded-r-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{"<"}</button>
                 <button ref={nextRef} onClick={() => handleNextImg()} className=' right-0 absolute rounded-l-md bg-darkerblue h-fit px-4 py-2 top-[40%] transition-all duration-300 z-10'>{">"}</button>
                 <div className='w-96 h-96 overflow-hidden rounded-lg max-[480px]:w-full'>
-                    <div className='h-full w-fit flex max-[480px]:w-[300%]'>
+                    <div className='h-full w-fit flex' style={{
+                        width: "calc("+data.image.length+"*100%)"
+                    }}>
                         {data.image.map((e, i) => {
-                            return <div className='w-96 relative bg-neutral-400 max-[480px]:w-[33.3%]'>
-                                <ImageComp refs={imageRef[i]} src={e} key={i} className=" absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover h-full"/>
+                            return <div key={i} className='relative bg-neutral-400 grow'>
+                                <ImageComp refs={imageRef[i]} src={e} className=" absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 object-cover h-full"/>
                             </div>
                         })}
                     </div>

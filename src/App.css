@@ -83,3 +83,9 @@
     border-radius: 0rem 4rem;
   }
 }
+
+@media screen and (max-width: 1240px) {
+  .navbar{
+    padding: 0 3rem;
+  }
+}

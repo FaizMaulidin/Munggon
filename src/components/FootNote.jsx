@@ -10,7 +10,7 @@ import dataProd from '../data/produk.json'
 const FootNote = ({refs}) => {
   return (
     <div ref={refs} className='bg-darkerblue flex text-white justify-center items-center gap-12 py-16 max-[480px]:px-4'>
-        <div className='grid grid-cols-footnote gap-x-20 gap-y-4 grid-rows-footnote max-[480px]:flex max-[480px]:flex-col max-[480px]:gap-8'>
+        <div className='grid grid-cols-footnote gap-x-20 gap-y-4 grid-rows-footnote max-[480px]:flex max-[480px]:flex-col max-[480px]:gap-8 max-[1240px]:gap-x-12'>
           <MunggonTitle justify={'end'}/>
           <h1 className='text-xl font-semibold tracking-wider self-end leading-none max-[480px]:hidden'>Kegiatan</h1>
           <h1 className='text-xl font-semibold tracking-wider self-end leading-none max-[480px]:hidden'>Produk</h1>
