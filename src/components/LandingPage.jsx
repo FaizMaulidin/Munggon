@@ -14,7 +14,7 @@ const LandingPage = ({scroll}) => {
             </div>
             <div className="elements w-1/2 flex justify-end pr-20 max-[480px]:w-full max-[480px]:justify-center max-[480px]:p-0 max-[1240px]:pr-10">
                 <div className=" w-72 relative flex justify-center ">
-                    <ImageComp className="rounded-full object-cover h-full max-[480px]:w-40" src="./tugu1.png"/>
+                    <ImageComp hash='LoHVbloex]WB_NofofWBRkayRiaz' className="rounded-full object-cover h-full max-[480px]:w-40" src="./tugu1.png"/>
                     <div className='bg-gold w-40 h-28 rounded-2xl absolute top-20 -left-20 max-[480px]:w-24 max-[480px]:h-16 max-[480px]:rounded-md max-[480px]:left-0'></div>
                     <div className='bg-gold w-32 h-36 rounded-2xl absolute bottom-20 -right-20 max-[480px]:w-16 max-[480px]:h-24 max-[480px]:right-8 max-[480px]:bottom-14'></div>
                 </div>

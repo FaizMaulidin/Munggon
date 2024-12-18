@@ -7,7 +7,7 @@ import ImageComp from '../ImageComp'
 const KegWrapper = ({refs, res}) => {
     
     return (
-        <div ref={refs} className="flex gap-6 items-center h-fit transition-all duration-100 opacity-20 scroll-ml-4 max-[480px]:flex-col max-[480px]:snap-start">
+        <div ref={refs} className="flex gap-6 items-center h-fit transition-all duration-100 opacity-30 scroll-ml-4 max-[480px]:flex-col max-[480px]:snap-start">
             <div className=' bg-lightgray2 font-light rounded-2xl w-[20rem] h-[17rem] self-start flex shadow-kegwrap flex-col p-6 gap-8 max-[1080px]:w-[16rem] max-[480px]:gap-4 max-[480px]:translate-x-12 max-[1240px]:w-[18rem] max-[480px]:h-[14rem] max-[960px]:h-[18rem]'>
                 <div className='flex items-center'>
                     <div className='before:content-[""] before:absolute before:h-3 before:bg-gray2 before:w-3 before:rounded-full before:top-[1px] before:left-0 before:-translate-y-1/2 w-10 h-[2px] relative flex-grow pl-[0.95rem] pr-[0.20rem] max-[480px]:before:w-2 max-[480px]:before:h-2'  >

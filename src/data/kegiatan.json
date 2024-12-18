@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Rapat RT 01",
         "produk": "Rapat RT",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Pertemuan rutin warga RT 01 untuk membahas berbagai hal terkait kebutuhan dan pengelolaan lingkungan sekitar, termasuk perencanaan kegiatan dan penyelesaian masalah.",
         "schedule": "Malam Jumat Legi",
         "image": {
             "landscape": "./assets/rapatrt1-ls.jpg",
@@ -13,7 +13,7 @@
     {
         "id": 1,
         "name": "Rapat RT 02",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Diskusi antar warga RT 02 untuk menyampaikan aspirasi, mengevaluasi program kerja, dan memperkuat kerja sama demi kenyamanan lingkungan.",
         "schedule": "Malam Jumat Wage",
         "image": {
             "landscape": "./assets/rapatrt2-ls.jpg",
@@ -24,7 +24,7 @@
         "id": 2,
         "name": "Rapat RW 20",
         "produk": "Rapat RW",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Forum komunikasi antar perwakilan RT di tingkat RW untuk menyelaraskan program kerja, membahas isu-isu strategis, dan menentukan langkah pembangunan bersama.",
         "schedule": "Malam Minggu Pahing",
         "image": {
             "landscape": "./assets/rapatrw-ls.jpg",
@@ -35,7 +35,7 @@
         "id": 3,
         "name": "Kegiatan PKK RT 01",
         "produk": "Kegiatan PKK",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Aktivitas yang melibatkan ibu-ibu RT 01 dalam meningkatkan kesejahteraan keluarga, seperti pelatihan keterampilan, pengelolaan pangan, hingga kegiatan sosial.",
         "schedule": "Tanggal 4",
         "image": {
             "landscape": "./assets/pkkrt1-ls.PNG",
@@ -45,7 +45,7 @@
     {
         "id": 4,
         "name": "Kegiatan PKK RT 02",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Program PKK RT 02 yang fokus pada pemberdayaan wanita dalam keluarga, termasuk pengelolaan ekonomi rumah tangga dan kesehatan lingkungan.",
         "schedule": "Tanggal 5",
         "image": {
             "landscape": "./assets/pkkrt2-ls.jpg",
@@ -55,7 +55,7 @@
     {
         "id": 5,
         "name": "Kegiatan PKK RW 20",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Agenda kolektif ibu-ibu dari seluruh RT di bawah naungan RW, bertujuan memperkuat sinergi dan menyelenggarakan program kesejahteraan skala lebih besar.",
         "schedule": "Tanggal 9",
         "image": {
             "landscape": "./assets/pkkrw-ls.PNG",
@@ -66,7 +66,7 @@
         "id": 6,
         "name": "Posyandu",
         "produk": "Posyandu",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Layanan kesehatan terpadu yang berfokus pada bayi, balita, dan lansia, mencakup pemeriksaan kesehatan, imunisasi, dan edukasi gizi.",
         "schedule": "Setiap Tanggal 6",
         "image": {
             "landscape": "./assets/posyandu-ls.JPG",
@@ -77,7 +77,7 @@
         "id": 7,
         "name": "Rapat Pemuda",
         "produk": "Rapat Pemuda",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Forum diskusi antar pemuda desa untuk menyusun dan mengevaluasi program kerja, serta mempererat solidaritas dalam berbagai kegiatan sosial dan budaya.",
         "schedule": "Sebulan Sekali",
         "image": {
             "landscape": "./assets/rapatpemuda-ls.jpg",
@@ -88,7 +88,7 @@
         "id": 8,
         "name": "TPA",
         "produk": "TPA",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Kegiatan belajar membaca, menulis, dan memahami Al-Qur'an bagi anak-anak, yang bertujuan memperdalam nilai-nilai keagamaan sejak dini.",
         "schedule": "Senin - Jumat",
         "image": {
             "landscape": "./assets/tpa-ls.jpg",
@@ -99,7 +99,7 @@
         "id": 9,
         "name": "Pengajian",
         "produk": "Pengajian",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Acara keagamaan rutin yang melibatkan warga untuk mendalami ilmu agama, mempererat silaturahmi, dan memperkuat keimanan.",
         "schedule": "Malam Selasa Pahing",
         "image": {
             "landscape": "./assets/pengajian-ls.jpg",
@@ -110,7 +110,7 @@
         "id": 10,
         "name": "Senam Rutin",
         "produk": "Senam Rutin",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed placeat, corrupti vero dicta magnam ipsa quos quas asperiores quam accusantium!",
+        "desc": "Aktivitas olahraga mingguan yang terbuka bagi seluruh warga desa untuk meningkatkan kebugaran dan menjaga kesehatan bersama.",
         "schedule": "Hari Minggu Pagi",
         "image": {
             "landscape": "./assets/senam-ls.jpg",
