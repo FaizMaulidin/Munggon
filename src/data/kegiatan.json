@@ -6,7 +6,7 @@
         "desc": "Pertemuan rutin warga RT 01 untuk membahas berbagai hal terkait kebutuhan dan pengelolaan lingkungan sekitar, termasuk perencanaan kegiatan dan penyelesaian masalah.",
         "schedule": "Malam Jumat Legi",
         "image": {
-            "landscape": "./assets/rapatrt1-ls.jpg",
+            "landscape": "./assets/rapatrt1-pr.jpg",
             "portrait": "./assets/rapatrt1-pr.jpg"
         }
     },
@@ -48,13 +48,13 @@
         "desc": "Program PKK RT 02 yang fokus pada pemberdayaan wanita dalam keluarga, termasuk pengelolaan ekonomi rumah tangga dan kesehatan lingkungan.",
         "schedule": "Tanggal 5",
         "image": {
-            "landscape": "./assets/pkkrt2-ls.jpg",
+            "landscape": "./assets/pkkrt2-ls.png",
             "portrait": "./assets/pkkrt2-pr.jpg"
         }
     },
     {
         "id": 5,
-        "name": "Kegiatan PKK RW 20",
+        "name": "Kegiatan PKK Desa",
         "desc": "Agenda kolektif ibu-ibu dari seluruh RT di bawah naungan RW, bertujuan memperkuat sinergi dan menyelenggarakan program kesejahteraan skala lebih besar.",
         "schedule": "Tanggal 9",
         "image": {
