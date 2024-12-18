@@ -45,7 +45,7 @@ const Navbar = ({theme, handleClick}) => {
                             <button onClick={() => setMenu(false)} className='text-3xl'><FontAwesomeIcon icon={faXmark}/></button>
                         </div>
                         <div className=' h-[1px] w-full bg-darkerblue'></div>
-                        <ul className='grow flex flex-col items-center gap-6 justify-center max-md:hidden'>
+                        <ul className='grow flex flex-col items-center gap-6 justify-center'>
                             <li><HashLink to={'/'}><NavbarOpt text='Beranda' theme={theme}/></HashLink></li>
                             <li><Link to={'/kegiatan?id=0'}><NavbarOpt text='Kegiatan' theme={theme}/></Link></li>
                             <li><Link to={'/produk'}><NavbarOpt text='Produk' theme={theme}/></Link></li>
