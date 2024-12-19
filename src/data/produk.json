@@ -13,13 +13,13 @@
             "./assets/produk/wayang3.jpg"
         ]
     },
-    {
+    { 
         "id": 2,
         "name": "Batik Dinda Hayu",
         "produk": "Kain Batik",
         "desc": "Batik tulis khas desa yang dibuat secara manual oleh pengrajin lokal. Setiap motif menggambarkan keindahan budaya dan alam sekitar, menjadikannya unik dan bernilai seni tinggi.",
-        "owner": "Dinda Hayu",
-        "hp": "https://wa.me/6285974848469",
+        "owner": "Bu Etik",
+        "hp": "https://wa.me/0000000000",
         "maps": "https://maps.app.goo.gl/VUrZJHT8uxsxNZeq5",
         "image": [
             "./assets/produk/batik1.jpg",
@@ -49,7 +49,7 @@
         "desc": "Aneka makanan ringan seperti snack box untuk acara, pangsit chili oil yang gurih dan pedas, serta cireng dengan cita rasa khas, cocok untuk camilan keluarga.",
         "owner": "Nina",
         "hp": "https://wa.me/6287739161421",
-        "maps": "link maps",
+        "maps": "https://maps.app.goo.gl/QH3UGzthB6Xn59SLA",
         "image": [
             "./assets/produk/nais1.jpg",
             "./assets/produk/nais2.jpg",
@@ -58,15 +58,16 @@
     },
     {
         "id": 5,
-        "name": "Beras Sawah",
+        "name": "Beras Bu Rajinah",
         "produk": "Beras",
         "desc": "Beras hasil panen dari sawah desa yang ditanam dengan teknik tradisional. Memiliki tekstur pulen dan aroma alami, menjadikannya pilihan tepat untuk keluarga yang mengutamakan kualitas pangan.",
-        "owner": "Pak Sadiyana",
-        "hp": "https://wa.me/6285974848469",
-        "maps": "link maps",
+        "owner": "Bu Rajinah",
+        "hp": "https://wa.me/628817698919",
+        "maps": "https://maps.app.goo.gl/SrvrRSc8B8oACKCf6",
         "image": [
             "./assets/produk/beras1.jpg",
-            "./assets/produk/beras2.jpg"
+            "./assets/produk/beras2.jpg",
+            "./assets/produk/beras3.jpg"
         ]
     },
     {

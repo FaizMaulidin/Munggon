@@ -15,19 +15,11 @@ const ImageComp = ({src, className, refs, hash}) => {
 
     return (
         <>
-            {/* {!imgLoaded && hash
-                ? <Blurhash
-                    hash={hash}
-                    height={500}
-                    width={300}
-                    className='rounded-xl'
-                    resolutionX={32}
-                    resolutionY={32}
-                    punch={1}
-                />
+            {!imgLoaded && hash
+                ? <img ref={refs} className={className} src={hash} alt="" />
                 : <img ref={refs} className={className} src={src} alt="" />
-            } */}
-            <img ref={refs} className={className} src={src} alt="" loading='lazy' />
+            }
+            {/* <img ref={refs} className={className} src={src} alt="" /> */}
         </>
     )
 }

@@ -32,7 +32,6 @@ const Navbar = ({theme, handleClick}) => {
                 <li><Link to={'/kegiatan?id=0'}><NavbarOpt text='Kegiatan' theme={theme}/></Link></li>
                 <li><Link to={'/produk'}><NavbarOpt text='Produk' theme={theme}/></Link></li>
                 <li onClick={handleClick}><Link to={'/?footnote=1'}><NavbarOpt text='Hubungi Kami' theme={theme}/></Link></li>
-                <li><a href="#"><NavbarOpt text='Bahasa' theme={theme}/></a></li>
             </ul>
             <button onClick={() => setMenu(true)} className=' hidden text-2xl max-[480px]:flex'>
                 <FontAwesomeIcon icon={faBars}/>
@@ -50,7 +49,6 @@ const Navbar = ({theme, handleClick}) => {
                             <li><Link to={'/kegiatan?id=0'}><NavbarOpt text='Kegiatan' theme={theme}/></Link></li>
                             <li><Link to={'/produk'}><NavbarOpt text='Produk' theme={theme}/></Link></li>
                             <li onClick={handleClick}><Link to={'/?footnote=1'}><NavbarOpt text='Hubungi Kami' theme={theme}/></Link></li>
-                            <li><a href="#"><NavbarOpt text='Bahasa' theme={theme}/></a></li>
                         </ul>
                     </div>
                 </div>

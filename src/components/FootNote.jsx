@@ -27,7 +27,7 @@ const FootNote = ({refs}) => {
             </div>
             <div className='flex gap-2 items-start justify-start'>
               <FontAwesomeIcon icon={faPhone}/>
-              <p>0812-3456-7890</p>
+              <p>+62 895-4038-40508</p>
             </div>
             <div className='flex gap-2 items-start justify-start'>
               <FontAwesomeIcon icon={faGlobe}/>
