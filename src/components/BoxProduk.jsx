@@ -17,7 +17,7 @@ const BoxProduk = ({data}) => {
     )
   }
   return (
-    <Link to={'/produk'} className="box bg-cream cursor-pointer transition-all duration-500 hover:scale-[1.015] saturate-0 hover:saturate-50 rounded-md bg-cover h-full w-[26rem] text-darkblue text-3xl gap-4 font-semibold flex flex-col justify-center items-center max-[480px]:w-32 max-[480px]:text-xl max-[480px]:gap-2">
+    <Link to={'/produk'} state={lang} className="box bg-cream cursor-pointer transition-all duration-500 hover:scale-[1.015] saturate-0 hover:saturate-50 rounded-md bg-cover h-full w-[26rem] text-darkblue text-3xl gap-4 font-semibold flex flex-col justify-center items-center max-[480px]:w-32 max-[480px]:text-xl max-[480px]:gap-2">
       <FontAwesomeIcon className='text-8xl max-[480px]:text-5xl' icon={faBasketShopping}/>
       <p className='max-[480px]:text-center'>{lang.homepage.produk.button}</p>
     </Link>
