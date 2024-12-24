@@ -1,0 +1,35 @@
+{
+    "id": "english",
+    "navbar": ["Home", "Activities", "Products", "Contact Us", "Language"],
+    "homepage":{
+        "hero": {
+            "main": "EXPLORE MUNGGON",
+            "hook": "Small in Scale, Profound in Tales",
+            "start": "Start Exploring",
+            "location": "See Us on the Map"
+        },
+        "speech": {
+            "message": "Thank you for visiting the Dusun Munggon website. This site is presented as a window of information to help you get to know the uniqueness, potential, and daily life of our community. Enjoy exploring, and discover the fascinating stories that make our village special!",
+            "title": "Mr.",
+            "person": "Chief of Munggon Village"
+        },
+        "produk": {
+            "title": "Featured Products",
+            "button": "See More Products"
+        },
+        "kegiatan":{
+            "title": "Routine Activities",
+            "hook": "Activities that are a tangible manifestation of the spirit of togetherness among the residents of Munggon Village in maintaining harmony and strengthening the relationships between community members.",
+            "button": "See All Activities"
+        },
+        "footnote":{
+            "kegiatan": "Activities",
+            "produk": "Products"
+        }
+    },
+    "kegiatan": "Routine Activities",
+    "produk":{
+        "title": "Local Products from Munggon Village",
+        "hook": "The result of the creativity and wisdom of the residents, prioritizing quality in every inspiration."
+    }
+}

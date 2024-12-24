@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Shadow Puppets by Pak Suwardi",
+        "produk": "Shadow Puppets",
+        "desc": "Shadow puppets crafted by local artisans, created through a detailed process taking about one week. Frequently ordered by puppeteers for traditional art performances, introducing local culture to various audiences.",
+        "owner": "Pak Suwardi",
+        "hp": "https://wa.me/6287894859218",
+        "maps": "https://maps.app.goo.gl/ScVMHmXmt78TbqgP7",
+        "image": [
+            "./assets/produk/wayang1.jpg",
+            "./assets/produk/wayang2.jpg",
+            "./assets/produk/wayang3.jpg"
+        ]
+    },
+    { 
+        "id": 2,
+        "name": "Dinda Hayu Batik",
+        "produk": "Batik Fabric",
+        "desc": "Hand-drawn batik unique to the village, made manually by local artisans. Each motif represents the beauty of culture and surrounding nature, making it unique and highly artistic.",
+        "owner": "Bu Etik",
+        "hp": "https://wa.me/0000000000",
+        "maps": "https://maps.app.goo.gl/VUrZJHT8uxsxNZeq5",
+        "image": [
+            "./assets/produk/batik1.jpg",
+            "./assets/produk/batik2.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Arisoema Bag",
+        "produk": "Handmade Bags",
+        "desc": "Handmade products such as bags, souvenir bags, wallets, and phone cases crafted with creativity and quality materials. Perfect for daily use or as unique gifts.",
+        "owner": "Pak Sumari",
+        "hp": "https://wa.me/6289648570298",
+        "maps": "https://maps.app.goo.gl/UzSERmwXyVnD9pTT6",
+        "image": [
+            "./assets/produk/tas1.jpg",
+            "./assets/produk/tas2.jpg",
+            "./assets/produk/tas3.jpg",
+            "./assets/produk/tas4.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nai's Kitchen",
+        "produk": "Snacks",
+        "desc": "A variety of snacks like snack boxes for events, savory and spicy chili oil dumplings, and traditional tapioca fritters with distinctive flavors, perfect for family treats.",
+        "owner": "Nina",
+        "hp": "https://wa.me/6287739161421",
+        "maps": "https://maps.app.goo.gl/QH3UGzthB6Xn59SLA",
+        "image": [
+            "./assets/produk/nais1.jpg",
+            "./assets/produk/nais2.jpg",
+            "./assets/produk/nais3.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Rice by Bu Rajinah",
+        "produk": "Rice",
+        "desc": "Rice harvested from village fields, cultivated using traditional techniques. It has a soft texture and natural aroma, making it an excellent choice for families prioritizing quality food.",
+        "owner": "Bu Rajinah",
+        "hp": "https://wa.me/628817698919",
+        "maps": "https://maps.app.goo.gl/SrvrRSc8B8oACKCf6",
+        "image": [
+            "./assets/produk/beras1.jpg",
+            "./assets/produk/beras2.jpg",
+            "./assets/produk/beras3.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Fian Collection",
+        "produk": "Garment Production",
+        "desc": "A garment business providing various clothing items such as t-shirts, Islamic dresses, and sportswear, made with quality cotton fabrics. Offers both press and manual screen printing services with custom designs.",
+        "owner": "Pak Sadiyana",
+        "hp": "https://wa.me/6285974848469",
+        "maps": "https://maps.app.goo.gl/MRfcZFnEnG6PxxDH8",
+        "image": [
+            "./assets/produk/fian1.jpg",
+            "./assets/produk/fian2.jpg",
+            "./assets/produk/fian3.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lopis by Bu Iwin",
+        "produk": "Traditional Food",
+        "desc": "Traditional village delicacies such as sweet and chewy lopis, soft cassava cakes, and glutinous rice with a tender texture, delivering the authentic warmth of local flavors.",
+        "owner": "Bu Iwin",
+        "hp": "https://wa.me/6289516354555",
+        "maps": "https://maps.app.goo.gl/PGFazUW5tNLkin1f6",
+        "image": [
+            "./assets/produk/lopis1.jpg",
+            "./assets/produk/lopis2.jpg"
+        ]
+    }
+]

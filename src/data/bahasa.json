@@ -1,0 +1,35 @@
+{
+    "id": "bahasa",
+    "navbar": ["Beranda", "Kegiatan", "Produk", "Hubungi Kami", "Bahasa"],
+    "homepage":{
+        "hero": {
+            "main": "JELAJAH MUNGGON",
+            "hook": "Kecil dalam Ukuran, Besar dalam Cerita",
+            "start": "Mulai Jelajah",
+            "location": "Lihat Lokasi Kami"
+        },
+        "speech": {
+            "message": "Terima kasih telah mengunjungi website Dusun Munggon. Situs ini kami hadirkan sebagai jendela informasi untuk mengenal lebih dekat keunikan, potensi, dan kehidupan sehari-hari masyarakat kami. Selamat menjelajahi, dan temukan cerita menarik yang membuat dusun kami istimewa!",
+            "title": "Pak",
+            "person": "Kepala Dusun Munggon"
+        },
+        "produk": {
+            "title": "Produk Unggulan",
+            "button": "Lihat Produk Lainnya"
+        },
+        "kegiatan":{
+            "title": "Kegiatan Rutin",
+            "hook": "Kegiatan yang menjadi wujud nyata semangat kebersamaan warga Dusun Munggon dalam menjaga harmoni dan mempererat hubungan antarwarga.",
+            "button": "Lihat Semua Kegiatan"
+        },
+        "footnote":{
+            "kegiatan": "Kegiatan",
+            "produk": "Produk"
+        }
+    },
+    "kegiatan": "Kegiatan Rutin",
+    "produk":{
+        "title": "Produk Lokal Dusun Munggon",
+        "hook": "Hasil dari kreativitas dan kearifan warga yang mengutamakan kualitas dalam setiap inspirasi."
+    }
+}

@@ -1,0 +1,120 @@
+[
+    {
+        "id": 0,
+        "name": "RT 01 Meeting",
+        "produk": "RT Meeting",
+        "desc": "Regular meeting of RT 01 residents to discuss various needs and local management, including activity planning and problem-solving.",
+        "schedule": "Thursday Night Legi",
+        "image": {
+            "landscape": "./assets/rapatrt1-pr.jpg",
+            "portrait": "./assets/rapatrt1-pr.jpg"
+        }
+    },
+    {
+        "id": 1,
+        "name": "RT 02 Meeting",
+        "desc": "Discussion among RT 02 residents to share aspirations, evaluate work programs, and strengthen cooperation for neighborhood comfort.",
+        "schedule": "Thursday Night Wage",
+        "image": {
+            "landscape": "./assets/rapatrt2-ls.jpg",
+            "portrait": "./assets/rapatrt2-pr.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "RW 20 Meeting",
+        "produk": "RW Meeting",
+        "desc": "Communication forum between RT representatives at the RW level to align work programs, discuss strategic issues, and determine joint development steps.",
+        "schedule": "Saturday Night Pahing",
+        "image": {
+            "landscape": "./assets/rapatrw-ls.jpg",
+            "portrait": "./assets/rapatrw-pr.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "PKK Activities RT 01",
+        "produk": "PKK Activities",
+        "desc": "Activities involving RT 01 mothers to enhance family welfare, such as skill training, food management, and social activities.",
+        "schedule": "Every 4th Date",
+        "image": {
+            "landscape": "./assets/pkkrt1-ls.PNG",
+            "portrait": "./assets/pkkrt1-pr.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "PKK Activities RT 02",
+        "desc": "PKK programs in RT 02 focusing on empowering women in households, including economic management and environmental health.",
+        "schedule": "Every 5th Date",
+        "image": {
+            "landscape": "./assets/pkkrt2-ls.png",
+            "portrait": "./assets/pkkrt2-pr.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Village PKK Activities",
+        "desc": "Collective agenda of mothers from all RTs under the RW umbrella to strengthen synergy and implement larger-scale welfare programs.",
+        "schedule": "Every 9th Date",
+        "image": {
+            "landscape": "./assets/pkkrw-ls.PNG",
+            "portrait": "./assets/pkkrw-pr.PNG"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Integrated Health Service",
+        "produk": "Integrated Health Service",
+        "desc": "Integrated health services focusing on infants, toddlers, and the elderly, including health check-ups, immunizations, and nutrition education.",
+        "schedule": "Every 6th Date",
+        "image": {
+            "landscape": "./assets/posyandu-ls.JPG",
+            "portrait": "./assets/posyandu-pr.JPG"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Youth Meeting",
+        "produk": "Youth Meeting",
+        "desc": "Discussion forum among village youths to plan and evaluate work programs while strengthening solidarity through social and cultural activities.",
+        "schedule": "Once a Month",
+        "image": {
+            "landscape": "./assets/rapatpemuda-ls.jpg",
+            "portrait": "./assets/rapatpemuda-pr.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Qur'an Learning Center",
+        "produk": "Qur'an Learning Center",
+        "desc": "Activities for children to learn reading, writing, and understanding the Qur'an, aiming to instill religious values from an early age.",
+        "schedule": "Monday - Friday",
+        "image": {
+            "landscape": "./assets/tpa-ls.jpg",
+            "portrait": "./assets/tpa-pr.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Religious Gathering",
+        "produk": "Religious Gathering",
+        "desc": "Regular religious event involving residents to deepen religious knowledge, strengthen community ties, and fortify faith.",
+        "schedule": "Tuesday Night Pahing",
+        "image": {
+            "landscape": "./assets/pengajian-ls.jpg",
+            "portrait": "./assets/pengajian-pr.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Regular Exercise",
+        "produk": "Regular Exercise",
+        "desc": "Weekly exercise activities open to all village residents to enhance fitness and maintain collective health.",
+        "schedule": "Sunday Morning",
+        "image": {
+            "landscape": "./assets/senam-ls.jpg",
+            "portrait": "./assets/senam-pr.png"
+        }
+    }
+]

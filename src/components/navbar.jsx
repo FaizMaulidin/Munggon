@@ -1,14 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import NavbarOpt from './navbar-option'
 import MunggonTitle from './MunggonTitle'
 import { Link } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faBurger, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faBurger, faChevronDown, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { LangContext, SetLangContext } from './LangContext'
+import bahasa from '../data/bahasa.json'
+import english from '../data/eng.json'
 
-const Navbar = ({theme, handleClick}) => {
+const Navbar = ({handleClick}) => {
     const [navbar, setNavbar] = useState(false)
     const [menu, setMenu] = useState(false)
+    const lang = useContext(LangContext)
+    const setLang = useContext(SetLangContext)
+    const [langBox, setLangBox] = useState()
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -22,16 +27,20 @@ const Navbar = ({theme, handleClick}) => {
     }
 
     return (
-        <div style={{
-            backgroundColor: theme === 'light' ? "transparent" : '#14252d',
-            color: theme === 'light' ? '#14252d' : 'white'
-        }} className={navbar ? 'navbar navbar-scrolled ' : 'navbar'}>
+        <div className={navbar ? 'navbar navbar-scrolled ' : 'navbar'}>
             <MunggonTitle justify={'center'}/>
             <ul className=' flex gap-2 max-[480px]:hidden'>
-                <li><HashLink to={'/'}><NavbarOpt text='Beranda' theme={theme}/></HashLink></li>
-                <li><Link to={'/kegiatan?id=0'}><NavbarOpt text='Kegiatan' theme={theme}/></Link></li>
-                <li><Link to={'/produk'}><NavbarOpt text='Produk' theme={theme}/></Link></li>
-                <li onClick={handleClick}><Link to={'/?footnote=1'}><NavbarOpt text='Hubungi Kami' theme={theme}/></Link></li>
+                <li><Link to={'/'} state={lang}><NavbarOpt text={lang.navbar[0]}/></Link></li>
+                <li><Link to={'/kegiatan?id=0'} state={lang}><NavbarOpt text={lang.navbar[1]}/></Link></li>
+                <li><Link to={'/produk'} state={lang}><NavbarOpt text={lang.navbar[2]}/></Link></li>
+                <li onClick={handleClick}><Link to={'/?footnote=1'} state={lang}><NavbarOpt text={lang.navbar[3]}/></Link></li>
+                <li onClick={() => setLangBox(!langBox)} className='relative'>
+                    <NavbarOpt text={lang.navbar[4]} arrow={true}/>
+                    {langBox && <div className=' absolute flex font-extralight flex-col bg-white text-darkerblue rounded-lg left-1/2 -translate-x-1/2 top-[150%] before:content-[""] before:w-6 before:h-6 before:bg-white before:absolute before:rotate-45 before:rounded-sm before:-translate-y-1/3 before:left-1/2 before:-translate-x-1/2'>
+                        <button onClick={() => setLang(bahasa)} className='rounded-t-lg pt-4 pb-2 px-4 text-nowrap hover:text-gold'>Bahasa Indonesia</button>
+                        <button onClick={() => setLang(english)} className='rounded-b-lg pb-4 py-2 px-4 hover:text-gold transition-all'>English</button>
+                    </div>}
+                </li>
             </ul>
             <button onClick={() => setMenu(true)} className=' hidden text-2xl max-[480px]:flex'>
                 <FontAwesomeIcon icon={faBars}/>
@@ -45,10 +54,17 @@ const Navbar = ({theme, handleClick}) => {
                         </div>
                         <div className=' h-[1px] w-full bg-darkerblue'></div>
                         <ul className='grow flex flex-col items-center gap-6 justify-center'>
-                            <li><HashLink to={'/'}><NavbarOpt text='Beranda' theme={theme}/></HashLink></li>
-                            <li><Link to={'/kegiatan?id=0'}><NavbarOpt text='Kegiatan' theme={theme}/></Link></li>
-                            <li><Link to={'/produk'}><NavbarOpt text='Produk' theme={theme}/></Link></li>
-                            <li onClick={handleClick}><Link to={'/?footnote=1'}><NavbarOpt text='Hubungi Kami' theme={theme}/></Link></li>
+                            <li><Link to={'/'} state={lang}><NavbarOpt text={lang.navbar[0]}/></Link></li>
+                            <li><Link to={'/kegiatan?id=0'} state={lang}><NavbarOpt text={lang.navbar[1]}/></Link></li>
+                            <li><Link to={'/produk'} state={lang}><NavbarOpt text={lang.navbar[2]}/></Link></li>
+                            <li onClick={handleClick}><Link to={'/?footnote=1'} state={lang}><NavbarOpt text={lang.navbar[3]}/></Link></li>
+                            <li onClick={() => setLangBox(!langBox)} className='relative'>
+                                <NavbarOpt text={lang.navbar[4]} arrow={true}/>
+                                {langBox && <div className=' absolute flex font-extralight flex-col bg-white text-darkerblue rounded-lg left-1/2 -translate-x-1/2 top-[150%] before:content-[""] before:w-6 before:h-6 before:bg-white before:absolute before:rotate-45 before:rounded-sm before:-translate-y-1/3 before:left-1/2 before:-translate-x-1/2'>
+                                    <button onClick={() => setLang(bahasa)} className='rounded-t-lg pt-4 pb-2 px-4 text-nowrap hover:text-gold'>Bahasa Indonesia</button>
+                                    <button onClick={() => setLang(english)} className='rounded-b-lg pb-4 py-2 px-4 hover:text-gold transition-all'>English</button>
+                                </div>}
+                            </li>
                         </ul>
                     </div>
                 </div>
