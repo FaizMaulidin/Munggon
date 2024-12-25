@@ -67,7 +67,7 @@
         "name": "Posyandu",
         "produk": "Posyandu",
         "desc": "Layanan kesehatan terpadu yang berfokus pada bayi, balita, dan lansia, mencakup pemeriksaan kesehatan, imunisasi, dan edukasi gizi.",
-        "schedule": "Setiap Tanggal 6",
+        "schedule": "Tanggal 6",
         "image": {
             "landscape": "./assets/posyandu-ls.JPG",
             "portrait": "./assets/posyandu-pr.JPG"
