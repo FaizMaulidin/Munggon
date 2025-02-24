@@ -20,6 +20,10 @@ function App() {
     const [lang, setLang] = useState(bahasa)
     const location = useLocation()
 
+    for(let i = 65; 65 <= i <= 90; i++){
+        console.log(i)
+    }
+
     useEffect(() => {
         if (getUrlParams){
             handleClick()
