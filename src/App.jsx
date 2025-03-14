@@ -9,7 +9,6 @@ import NewKegiatan from './components/NewKegiatan';
 import PageTitle from './components/PageTitle';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import bahasa from './data/bahasa.json'
-import english from './data/eng.json'
 import AllContext from './components/LangContext';
 
 function App() {
@@ -19,10 +18,6 @@ function App() {
     const getUrlParams = urlParams.get('footnote')
     const [lang, setLang] = useState(bahasa)
     const location = useLocation()
-
-    for(let i = 65; 65 <= i <= 90; i++){
-        console.log(i)
-    }
 
     useEffect(() => {
         if (getUrlParams){
